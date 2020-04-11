@@ -264,7 +264,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 		pre code {
@@ -307,7 +307,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #ff7f07 !important;
 		}
 
 	strong, b {
@@ -2243,7 +2243,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #ff7f07;
 			}
 
 /* Form */
@@ -2500,7 +2500,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #ff7f07;
 		}
 
 	select {
@@ -2509,7 +2509,7 @@ input, select, textarea {
 
 		select option {
 			background-color: #ffffff;
-			color: #212931;
+			color: #ff7f07;
 		}
 
 	.select-wrapper:before {
@@ -2523,14 +2523,14 @@ input, select, textarea {
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			border-color: #eeeeee;
+			border-color: red;
 		}
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
 		background-color: #212931;
 		border-color: #212931;
-		color: #ffffff;
+		color: lime;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2624,7 +2624,6 @@ input, select, textarea {
 		.image.right {
 			float: right;
 			margin: 0 0 2rem 2rem;
-			top: 0.75rem;
 		}
 
 		.image.fit {
@@ -2899,7 +2898,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #ff7f07;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -3243,7 +3242,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg1.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3294,7 +3293,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 2rem 2rem 2rem 2rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3479,7 +3478,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 40vh;
 			}
 
 				#intro h1 {
@@ -3586,7 +3585,7 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
+				border-color: #ff7f07 !important;
 				color: #18bfef !important;
 			}
 
@@ -3735,11 +3734,11 @@ input, select, textarea {
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #18bfef;
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #ff7f07 !important;
 						}
 
 		#nav ul.icons {
@@ -4027,7 +4026,7 @@ input, select, textarea {
 			#footer button:hover,
 			#footer .button:hover {
 				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				color: #ff7f07 !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4136,7 +4135,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #ff7f07;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4420,7 +4419,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #ff7f07 !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4702,4 +4701,42 @@ input, select, textarea {
 		}
 	.pagination {
 		display: none;
+	}
+	hide {
+		display: none;
+	}
+	pri {
+		color: red;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		height: 4rem;
+		line-height: 4rem;
+		margin: -1rem auto -1rem auto;
+		overflow: hidden;
+		padding: 0 1rem 0 0;
+		position: relative;
+		width: calc(100% - 4rem);	
+	}
+	phorm {
+		border-color: red;
+	}
+	.donate {
+		width: 5%;
+		}
+	.image.fit {
+		display: block;
+		position: relative;
+		left: 25%;
+		width: 50%;
+	}
+	#intro + #header .logo {
+		color: #18bfef !important;
+	}
+	.image-face {
+				width: 30%;
+			}
+	.image.fit #drown {
+		width: 150%;
 	}
