@@ -1,0 +1,71 @@
+html{
+    background-color: black;
+}
+#frame{
+    overflow: hidden;
+    border: 0px;
+    position:fixed;
+    left: 50%;
+    top: 0px; 
+    left: 0; 
+    width: 1550px; 
+    height: 800px; 
+    margin: 0px;
+    padding: 0px;
+}
+iframe{
+    position:fixed;
+    overflow: hidden;
+    height:100%;
+    width:100%;
+    position:relative;
+    top:-25px;
+    left:-10px;
+    bottom:0px;
+}
+#b1{
+    position:fixed;
+    left: 50%;
+    width:1550px;
+    height:50px;
+    top: 0px;
+    left: 0px;
+    background:black;
+}
+#b2{
+    position:fixed;
+    left: 50%;
+    width:435px;
+    height:750px;
+    top: 0px;
+    left: -55px;
+    background:black;
+}
+#b3{
+    position:fixed;
+    left: 50%;
+    width:1550px;
+    height:100px;
+    top: 735px;
+    left: 0px;
+    background:black;
+}
+#b4{
+    position:fixed;
+    left: 50%;
+    width:50px;
+    height:800px;
+    top: 0px;
+    left: 1515px;
+    background:black;
+}
+button {
+    position:fixed;
+    background-color: black;
+    border: none;
+    color:rgb(144, 223, 255);
+    left: 50%;
+    padding: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
