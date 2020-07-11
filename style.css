@@ -13,10 +13,34 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5em;
-  margin-top: calc(50vh - 1em);
+  margin-top: calc(40vh - 1em);
   text-decoration: underline;
 }
 
+Nav {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  filter: invert(0%) blur(4px) drop-shadow(8px 8px 10px #ff543e);
+  transition: 0.3s;
+  margin-top: 10px;
+}
+img:hover{
+  filter: invert(0%) blur(0px) drop-shadow(8px 8px 10px #3eff3e);
+  margin-top: 0px;
+}
 
 /* Style the rainbow text element. */
 .rainbow-text {
