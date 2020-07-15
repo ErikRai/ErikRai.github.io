@@ -42,6 +42,28 @@ img:hover{
   margin-top: 0px;
 }
 
+#topText {
+  margin-top: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#CSGE {
+  position: absolute;
+  margin: auto;
+  margin-top: 420px;
+  align-self: center;
+  
+}
+#Alyssio {
+  margin-top: 5px;
+}
+
 /* Style the rainbow text element. */
 .rainbow-text {
   /* Create a conic gradient. */
