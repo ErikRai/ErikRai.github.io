@@ -1,7 +1,12 @@
 /* General styling of the page. */
 /* Sets a background color, font-size etc. */
+html {
+  align-content: center;
+  align-items: center;
+}
 body {
   background-color: #EDDDD4;
+  transition: 0.0s;
 }
 
 h1 {
@@ -12,9 +17,9 @@ h1 {
   line-height: 0.9em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.5em;
-  margin-top: calc(40vh - 1em);
-  text-decoration: underline;
+  margin-top: 0.1em;
+  margin-top: calc(20vh - 1em);
+  padding: 0px;
 }
 
 Nav {
@@ -31,6 +36,7 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  transition: 0.6s;
 }
 img {
   filter: invert(0%) blur(4px) drop-shadow(8px 8px 10px #ff543e);
@@ -43,7 +49,7 @@ img:hover{
 }
 
 #topText {
-  margin-top: 20px;
+  margin-top: 100px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -51,19 +57,66 @@ img:hover{
   display: flex;
   flex-direction: column;
   text-align: center;
+  transition: 0.6s;
 }
 
 #CSGE {
-  position: absolute;
-  margin: auto;
-  margin-top: 420px;
-  align-self: center;
-  
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  margin-left: 40%;
+  margin-right: 40%;
+  font-weight: bold;
+  width: 100px;
+  filter: drop-shadow(8px 8px 10px #000000);
+  -webkit-filter: brightness(10%);
+  transition: 0.6s;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-#Alyssio {
-  margin-top: 5px;
+#CSGE:hover {
+  -webkit-filter: brightness(100%);
 }
 
+x{
+  padding-right: 50px;
+}
+y{
+  padding-left: 50px;
+}
+
+#Alyssio {
+  margin-top: 5px;
+  transition: 0.6s;
+  background-color: #476098;
+  background: conic-gradient(
+    #476098 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+}
+
+.Alyssio {
+  margin-top: 5px;
+  transition: 0.6s;
+  background-color: #F18F43;
+  background: conic-gradient(
+    #F18F43 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+}
+.Alyssio:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+  font-size: 24px;
+  background-color: #01ccff;
+  background: conic-gradient(
+    #01ccff 100%);
+  background-size: 100%;
+  filter: drop-shadow(8px 8px 2px #000000);
+  -webkit-text-stroke: 0.2px black;
+
+}
 /* Style the rainbow text element. */
 .rainbow-text {
   /* Create a conic gradient. */
@@ -100,6 +153,68 @@ img:hover{
 
 /* Add animation on hover. */
 .rainbow-text:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+  
+}
+
+.rainbow-text2 {
+  /* Create a conic gradient. */
+  /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+  background: #CA4246;
+  background-color: #CA4246;
+  background: conic-gradient(
+    #CA4246 9.7%, 
+    #476098 90.333%);
+  
+  /* Set thee background size and repeat properties. */
+  background-size: 75%;
+  background-repeat: repeat;
+  
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+/* Add animation on hover. */
+.rainbow-text2:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+  
+}
+
+.rainbow-text3 {
+  /* Create a conic gradient. */
+  /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+  background: #CA4246;
+  background-color: #CA4246;
+  background: conic-gradient(
+    #8B9862 20%, 
+    #2088a1 70%);
+  
+  /* Set thee background size and repeat properties. */
+  background-size: 75%;
+  background-repeat: repeat;
+  
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+/* Add animation on hover. */
+.rainbow-text3:hover {
   animation: rainbow-text-animation 0.5s ease forwards;
   
 }
