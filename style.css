@@ -20,6 +20,9 @@ h1 {
   margin-top: 0.1em;
   margin-top: calc(20vh - 1em);
   padding: 0px;
+  filter: drop-shadow(2px 2px 1px #ffffff);
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+
 }
 
 Nav {
@@ -44,12 +47,12 @@ img {
   margin-top: 10px;
 }
 img:hover{
-  filter: invert(0%) blur(0px) drop-shadow(8px 8px 10px #3eff3e);
+  filter: invert(100%) blur(0px) drop-shadow(8px 8px 10px #ffffff);
   margin-top: 0px;
 }
 
 #topText {
-  margin-top: 100px;
+  margin-top: 50px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -73,27 +76,25 @@ img:hover{
   transition: 0.6s;
   flex-direction: row;
   justify-content: space-evenly;
+  min-height: 50px;
+  filter: invert(100%) blur(0px) drop-shadow(1px 1px 1px #000000);
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
 #CSGE:hover {
   -webkit-filter: brightness(100%);
 }
 
-x{
-  padding-right: 50px;
-}
-y{
-  padding-left: 50px;
-}
-
 #Alyssio {
   margin-top: 5px;
   transition: 0.6s;
-  background-color: #476098;
+  background-color: #4486ff;
   background: conic-gradient(
     #476098 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   animation: rainbow-text-animation-rev 0.5s ease forwards;
+  filter: invert(100%) blur(0px) drop-shadow(1px 1px 1px #000000);
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
 
 .Alyssio {
@@ -105,15 +106,16 @@ y{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   animation: rainbow-text-animation-rev 0.5s ease forwards;
+  filter: invert(0%) ;
 }
 .Alyssio:hover {
   animation: rainbow-text-animation 0.5s ease forwards;
   font-size: 24px;
-  background-color: #01ccff;
+  background-color: #FC0000;
   background: conic-gradient(
-    #01ccff 100%);
+    #FC0000 100%);
   background-size: 100%;
-  filter: drop-shadow(8px 8px 2px #000000);
+  filter: drop-shadow(1px 1px 1px #fff);
   -webkit-text-stroke: 0.2px black;
 
 }
@@ -257,6 +259,24 @@ a{
   text-decoration: none;
 }
 
+x{
+  padding-right: 50px;
+}
+y{
+  padding-left: 50px;
+}
+#x{
+  cursor: default;
+}
+#y{
+  cursor: default;
+}
+
+body {
+  background: #000000;
+  width: 600;
+}
+
 @media(max-width:800px){
 
   body{
@@ -284,5 +304,6 @@ a{
     font-size: 3.5em;
     width: 7.5em;
   }
-
+  
 }
+
