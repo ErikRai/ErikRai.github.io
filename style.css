@@ -358,11 +358,47 @@ body {
     left: 120px;
   }
 
+}
+/* Mobile View */
+@media screen and (max-width: 700px){
+  body{
+    max-width: 600px;
+    margin: auto;
+    padding: 0px;
+    background-color: black;
+  }
+  h1{
+    position: absolute;
+    font-weight: 800;
+    font-size: 4.5em;
+    width: 7.5em;
+    top: 200px;
+    left: -25px;
+  }
+  .inner {
+    height: 800px;
+    width: 500px;
+    position: absolute;
+    top: 5%;  
+  }
+  
   .popup{
     display: none;
   }
+  #overlay{
+    display: none;
+  }
+  .enter{
+    display: none;
+  }
+  z{
+
+    display: none;
+  }
+  #CSGE{
+    display: none;
+  }
 }
-/* Mobile View */
 @media screen and (max-width: 600px){
   body{
     max-width: 600px;
@@ -375,7 +411,7 @@ body {
     font-weight: 800;
     font-size: 4.5em;
     width: 7.5em;
-    top: 360px;
+    top: 200px;
   }
   .inner {
     height: 800px;
@@ -387,6 +423,17 @@ body {
   .popup{
     display: none;
   }
+  #overlay{
+    display: none;
+  }
+  .enter{
+    display: none;
+  }
+  z{
+
+    display: none;
+  }
+
 }
 /* Mobile View */
 @media screen and (max-width: 500px){
@@ -424,6 +471,9 @@ body {
     display: none;
   }
   z{
+    display: none;
+  }
+  #overlay{
     display: none;
   }
 }
