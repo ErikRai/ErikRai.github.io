@@ -31,20 +31,20 @@
 
 .c:nth-child(1) {
   left: 0%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 9, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -1s;
 }
 .c:nth-child(1):after {
-  background: #ff0900;
+  background: #00cdffcc;
 }
 
 .c:nth-child(2) {
   left: 0.69444%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 18, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -1.4166666667s;
 }
 .c:nth-child(2):after {
-  background: #ff1200;
+  background: #00cdffcc;
 }
 
 .c:nth-child(3) {
@@ -53,7 +53,7 @@
   animation-delay: -0.5555555556s;
 }
 .c:nth-child(3):after {
-  background: #ff1b00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(4) {
@@ -62,7 +62,7 @@
   animation-delay: -1.1388888889s;
 }
 .c:nth-child(4):after {
-  background: #ff2300;
+  background: #00cdffcc;
 }
 
 .c:nth-child(5) {
@@ -71,7 +71,7 @@
   animation-delay: -0.1666666667s;
 }
 .c:nth-child(5):after {
-  background: #ff2c00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(6) {
@@ -80,7 +80,7 @@
   animation-delay: -2.6944444444s;
 }
 .c:nth-child(6):after {
-  background: #ff3500;
+  background: #00cdffcc;
 }
 
 .c:nth-child(7) {
@@ -89,7 +89,7 @@
   animation-delay: -2.9722222222s;
 }
 .c:nth-child(7):after {
-  background: #ff3e00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(8) {
@@ -98,7 +98,7 @@
   animation-delay: -1.1111111111s;
 }
 .c:nth-child(8):after {
-  background: #ff4700;
+  background: #00cdffcc;
 }
 
 .c:nth-child(9) {
@@ -107,7 +107,7 @@
   animation-delay: -1.9444444444s;
 }
 .c:nth-child(9):after {
-  background: #ff5000;
+  background: #00cdffcc;
 }
 
 .c:nth-child(10) {
@@ -116,25 +116,25 @@
   animation-delay: -3.4722222222s;
 }
 .c:nth-child(10):after {
-  background: #ff5900;
+  background: #00cdffcc;
 }
 
 .c:nth-child(11) {
   left: 6.9444%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 97, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -0.6388888889s;
 }
 .c:nth-child(11):after {
-  background: #ff6100;
+  background: #00cdffcc;
 }
 
 .c:nth-child(12) {
   left: 7.63884%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 106, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -3.1111111111s;
 }
 .c:nth-child(12):after {
-  background: #ff6a00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(13) {
@@ -143,7 +143,7 @@
   animation-delay: -3.0833333333s;
 }
 .c:nth-child(13):after {
-  background: #ff7300;
+  background: #00cdffcc;
 }
 
 .c:nth-child(14) {
@@ -152,7 +152,7 @@
   animation-delay: -0.5277777778s;
 }
 .c:nth-child(14):after {
-  background: #ff7c00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(15) {
@@ -161,7 +161,7 @@
   animation-delay: -2.75s;
 }
 .c:nth-child(15):after {
-  background: #ff8500;
+  background: #00cdffcc;
 }
 
 .c:nth-child(16) {
@@ -170,7 +170,7 @@
   animation-delay: -3.8333333333s;
 }
 .c:nth-child(16):after {
-  background: #ff8e00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(17) {
@@ -179,7 +179,7 @@
   animation-delay: -3.0555555556s;
 }
 .c:nth-child(17):after {
-  background: #ff9700;
+  background: #00cdffcc;
 }
 
 .c:nth-child(18) {
@@ -188,34 +188,34 @@
   animation-delay: -2.6388888889s;
 }
 .c:nth-child(18):after {
-  background: #ff9f00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(19) {
   left: 12.49992%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 168, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -0.25s;
 }
 .c:nth-child(19):after {
-  background: #ffa800;
+  background: #00cdffcc;
 }
 
 .c:nth-child(20) {
   left: 13.19436%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 177, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -2.3333333333s;
 }
 .c:nth-child(20):after {
-  background: #ffb100;
+  background: #00cdffcc;
 }
 
 .c:nth-child(21) {
   left: 13.8888%;
-  background-image: linear-gradient(to bottom, black, rgba(255, 186, 0, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -1.3333333333s;
 }
 .c:nth-child(21):after {
-  background: #ffba00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(22) {
@@ -224,7 +224,7 @@
   animation-delay: -2.6666666667s;
 }
 .c:nth-child(22):after {
-  background: #ffc300;
+  background: #00cdffcc;
 }
 
 .c:nth-child(23) {
@@ -233,7 +233,7 @@
   animation-delay: -3.3611111111s;
 }
 .c:nth-child(23):after {
-  background: #ffcc00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(24) {
@@ -242,7 +242,7 @@
   animation-delay: -3.0833333333s;
 }
 .c:nth-child(24):after {
-  background: #ffd500;
+  background: #00cdffcc;
 }
 
 .c:nth-child(25) {
@@ -251,7 +251,7 @@
   animation-delay: -3.5555555556s;
 }
 .c:nth-child(25):after {
-  background: #ffdd00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(26) {
@@ -260,7 +260,7 @@
   animation-delay: -1.2777777778s;
 }
 .c:nth-child(26):after {
-  background: #ffe600;
+  background: #00cdffcc;
 }
 
 .c:nth-child(27) {
@@ -269,7 +269,7 @@
   animation-delay: -2.1944444444s;
 }
 .c:nth-child(27):after {
-  background: #ffef00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(28) {
@@ -278,7 +278,7 @@
   animation-delay: -0.7777777778s;
 }
 .c:nth-child(28):after {
-  background: #fff800;
+  background: #00cdffcc;
 }
 
 .c:nth-child(29) {
@@ -287,7 +287,7 @@
   animation-delay: -3.7222222222s;
 }
 .c:nth-child(29):after {
-  background: #fdff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(30) {
@@ -296,7 +296,7 @@
   animation-delay: -3.8055555556s;
 }
 .c:nth-child(30):after {
-  background: #f4ff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(31) {
@@ -305,7 +305,7 @@
   animation-delay: -2.9166666667s;
 }
 .c:nth-child(31):after {
-  background: #ecff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(32) {
@@ -341,7 +341,7 @@
   animation-delay: -2.3333333333s;
 }
 .c:nth-child(35):after {
-  background: #c8ff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(36) {
@@ -350,7 +350,7 @@
   animation-delay: -1.9444444444s;
 }
 .c:nth-child(36):after {
-  background: #bfff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(37) {
@@ -359,7 +359,7 @@
   animation-delay: -1.9722222222s;
 }
 .c:nth-child(37):after {
-  background: #b6ff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(38) {
@@ -368,7 +368,7 @@
   animation-delay: -0.1666666667s;
 }
 .c:nth-child(38):after {
-  background: #aeff00;
+  background: #00cdffcc;
 }
 
 .c:nth-child(39) {
@@ -544,7 +544,7 @@
 
 .c:nth-child(58) {
   left: 39.58308%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 4, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 4, 0.8));
   animation-delay: -3.5833333333s;
 }
 .c:nth-child(58):after {
@@ -553,7 +553,7 @@
 
 .c:nth-child(59) {
   left: 40.27752%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 12, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 12, 0.8));
   animation-delay: -0.75s;
 }
 .c:nth-child(59):after {
@@ -562,7 +562,7 @@
 
 .c:nth-child(60) {
   left: 40.97196%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 21, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 21, 0.8));
   animation-delay: -3.5s;
 }
 .c:nth-child(60):after {
@@ -571,7 +571,7 @@
 
 .c:nth-child(61) {
   left: 41.6664%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 30, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 30, 0.8));
   animation-delay: -1.8055555556s;
 }
 .c:nth-child(61):after {
@@ -580,7 +580,7 @@
 
 .c:nth-child(62) {
   left: 42.36084%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 39, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 39, 0.8));
   animation-delay: -0.1388888889s;
 }
 .c:nth-child(62):after {
@@ -589,7 +589,7 @@
 
 .c:nth-child(63) {
   left: 43.05528%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 48, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 48, 0.8));
   animation-delay: -2.3888888889s;
 }
 .c:nth-child(63):after {
@@ -598,7 +598,7 @@
 
 .c:nth-child(64) {
   left: 43.74972%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 57, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 57, 0.8));
   animation-delay: -1.0277777778s;
 }
 .c:nth-child(64):after {
@@ -607,7 +607,7 @@
 
 .c:nth-child(65) {
   left: 44.44416%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 66, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 66, 0.8));
   animation-delay: -3.4722222222s;
 }
 .c:nth-child(65):after {
@@ -616,7 +616,7 @@
 
 .c:nth-child(66) {
   left: 45.1386%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 74, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 74, 0.8));
   animation-delay: -3.8333333333s;
 }
 .c:nth-child(66):after {
@@ -625,7 +625,7 @@
 
 .c:nth-child(67) {
   left: 45.83304%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 83, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 83, 0.8));
   animation-delay: -2.0833333333s;
 }
 .c:nth-child(67):after {
@@ -634,7 +634,7 @@
 
 .c:nth-child(68) {
   left: 46.52748%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 92, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 92, 0.8));
   animation-delay: -1.9722222222s;
 }
 .c:nth-child(68):after {
@@ -643,7 +643,7 @@
 
 .c:nth-child(69) {
   left: 47.22192%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 101, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 101, 0.8));
   animation-delay: -0.3333333333s;
 }
 .c:nth-child(69):after {
@@ -652,7 +652,7 @@
 
 .c:nth-child(70) {
   left: 47.91636%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 110, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 110, 0.8));
   animation-delay: -1.5s;
 }
 .c:nth-child(70):after {
@@ -661,7 +661,7 @@
 
 .c:nth-child(71) {
   left: 48.6108%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 119, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 119, 0.8));
   animation-delay: -1.7222222222s;
 }
 .c:nth-child(71):after {
@@ -670,7 +670,7 @@
 
 .c:nth-child(72) {
   left: 49.30524%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 128, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 128, 0.8));
   animation-delay: -1.2777777778s;
 }
 .c:nth-child(72):after {
@@ -679,7 +679,7 @@
 
 .c:nth-child(73) {
   left: 49.99968%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 136, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 136, 0.8));
   animation-delay: -2.5s;
 }
 .c:nth-child(73):after {
@@ -688,7 +688,7 @@
 
 .c:nth-child(74) {
   left: 50.69412%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 145, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 145, 0.8));
   animation-delay: -1.7222222222s;
 }
 .c:nth-child(74):after {
@@ -697,7 +697,7 @@
 
 .c:nth-child(75) {
   left: 51.38856%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 154, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 154, 0.8));
   animation-delay: -1.7777777778s;
 }
 .c:nth-child(75):after {
@@ -706,7 +706,7 @@
 
 .c:nth-child(76) {
   left: 52.083%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 163, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 163, 0.8));
   animation-delay: -3.6944444444s;
 }
 .c:nth-child(76):after {
@@ -715,7 +715,7 @@
 
 .c:nth-child(77) {
   left: 52.77744%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 172, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 172, 0.8));
   animation-delay: -1.0555555556s;
 }
 .c:nth-child(77):after {
@@ -724,7 +724,7 @@
 
 .c:nth-child(78) {
   left: 53.47188%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 181, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 181, 0.8));
   animation-delay: -1.3055555556s;
 }
 .c:nth-child(78):after {
@@ -733,7 +733,7 @@
 
 .c:nth-child(79) {
   left: 54.16632%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 189, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 189, 0.8));
   animation-delay: -1.1666666667s;
 }
 .c:nth-child(79):after {
@@ -742,7 +742,7 @@
 
 .c:nth-child(80) {
   left: 54.86076%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 198, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 198, 0.8));
   animation-delay: -2.8888888889s;
 }
 .c:nth-child(80):after {
@@ -751,7 +751,7 @@
 
 .c:nth-child(81) {
   left: 55.5552%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 207, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 207, 0.8));
   animation-delay: -2.6944444444s;
 }
 .c:nth-child(81):after {
@@ -760,7 +760,7 @@
 
 .c:nth-child(82) {
   left: 56.24964%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 216, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 216, 0.8));
   animation-delay: -3.1944444444s;
 }
 .c:nth-child(82):after {
@@ -769,7 +769,7 @@
 
 .c:nth-child(83) {
   left: 56.94408%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 225, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 225, 0.8));
   animation-delay: -2.7777777778s;
 }
 .c:nth-child(83):after {
@@ -778,7 +778,7 @@
 
 .c:nth-child(84) {
   left: 57.63852%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 234, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 234, 0.8));
   animation-delay: -0.6388888889s;
 }
 .c:nth-child(84):after {
@@ -787,7 +787,7 @@
 
 .c:nth-child(85) {
   left: 58.33296%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 243, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 243, 0.8));
   animation-delay: -0.1388888889s;
 }
 .c:nth-child(85):after {
@@ -796,7 +796,7 @@
 
 .c:nth-child(86) {
   left: 59.0274%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 255, 251, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 251, 0.8));
   animation-delay: -0.8333333333s;
 }
 .c:nth-child(86):after {
@@ -805,7 +805,7 @@
 
 .c:nth-child(87) {
   left: 59.72184%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 250, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -2.3055555556s;
 }
 .c:nth-child(87):after {
@@ -814,7 +814,7 @@
 
 .c:nth-child(88) {
   left: 60.41628%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 241, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -3.8888888889s;
 }
 .c:nth-child(88):after {
@@ -823,7 +823,7 @@
 
 .c:nth-child(89) {
   left: 61.11072%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 232, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -0.7222222222s;
 }
 .c:nth-child(89):after {
@@ -832,7 +832,7 @@
 
 .c:nth-child(90) {
   left: 61.80516%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 223, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -3.0277777778s;
 }
 .c:nth-child(90):after {
@@ -841,7 +841,7 @@
 
 .c:nth-child(91) {
   left: 62.4996%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 214, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205, 255, 0.8));
   animation-delay: -1.5s;
 }
 .c:nth-child(91):after {
@@ -1030,7 +1030,7 @@
 
 .c:nth-child(112) {
   left: 77.08284%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 28, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205 255, 0.8));
   animation-delay: -3.8333333333s;
 }
 .c:nth-child(112):after {
@@ -1057,11 +1057,11 @@
 
 .c:nth-child(115) {
   left: 79.16616%;
-  background-image: linear-gradient(to bottom, black, rgba(0, 2, 255, 0.8));
+  background-image: linear-gradient(to bottom, black, rgba(0, 205255, 0.8));
   animation-delay: -2.3055555556s;
 }
 .c:nth-child(115):after {
-  background: #0002ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(116) {
@@ -1070,7 +1070,7 @@
   animation-delay: -3.7222222222s;
 }
 .c:nth-child(116):after {
-  background: #0700ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(117) {
@@ -1079,7 +1079,7 @@
   animation-delay: -2.3611111111s;
 }
 .c:nth-child(117):after {
-  background: #1000ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(118) {
@@ -1088,7 +1088,7 @@
   animation-delay: -2.8888888889s;
 }
 .c:nth-child(118):after {
-  background: #1900ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(119) {
@@ -1106,7 +1106,7 @@
   animation-delay: -0.4722222222s;
 }
 .c:nth-child(120):after {
-  background: #2b00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(121) {
@@ -1115,7 +1115,7 @@
   animation-delay: -1.1388888889s;
 }
 .c:nth-child(121):after {
-  background: #3300ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(122) {
@@ -1124,7 +1124,7 @@
   animation-delay: -0.5277777778s;
 }
 .c:nth-child(122):after {
-  background: #3c00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(123) {
@@ -1133,7 +1133,7 @@
   animation-delay: -0.3888888889s;
 }
 .c:nth-child(123):after {
-  background: #4500ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(124) {
@@ -1142,7 +1142,7 @@
   animation-delay: -0.0833333333s;
 }
 .c:nth-child(124):after {
-  background: #4e00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(125) {
@@ -1151,7 +1151,7 @@
   animation-delay: -0.1388888889s;
 }
 .c:nth-child(125):after {
-  background: #5700ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(126) {
@@ -1160,7 +1160,7 @@
   animation-delay: -2.3611111111s;
 }
 .c:nth-child(126):after {
-  background: #6000ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(127) {
@@ -1169,7 +1169,7 @@
   animation-delay: -2.1944444444s;
 }
 .c:nth-child(127):after {
-  background: #6800ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(128) {
@@ -1178,7 +1178,7 @@
   animation-delay: -3.5277777778s;
 }
 .c:nth-child(128):after {
-  background: #7100ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(129) {
@@ -1187,7 +1187,7 @@
   animation-delay: -1.8888888889s;
 }
 .c:nth-child(129):after {
-  background: #7a00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(130) {
@@ -1196,7 +1196,7 @@
   animation-delay: -0.3333333333s;
 }
 .c:nth-child(130):after {
-  background: #8300ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(131) {
@@ -1205,7 +1205,7 @@
   animation-delay: -2s;
 }
 .c:nth-child(131):after {
-  background: #8c00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(132) {
@@ -1214,7 +1214,7 @@
   animation-delay: -0.3055555556s;
 }
 .c:nth-child(132):after {
-  background: #9500ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(133) {
@@ -1223,7 +1223,7 @@
   animation-delay: -1.8055555556s;
 }
 .c:nth-child(133):after {
-  background: #9e00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(134) {
@@ -1232,7 +1232,7 @@
   animation-delay: -3.25s;
 }
 .c:nth-child(134):after {
-  background: #a600ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(135) {
@@ -1241,7 +1241,7 @@
   animation-delay: -0.5833333333s;
 }
 .c:nth-child(135):after {
-  background: #af00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(136) {
@@ -1250,7 +1250,7 @@
   animation-delay: -3.4166666667s;
 }
 .c:nth-child(136):after {
-  background: #b800ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(137) {
@@ -1259,7 +1259,7 @@
   animation-delay: -1.2777777778s;
 }
 .c:nth-child(137):after {
-  background: #c100ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(138) {
@@ -1268,7 +1268,7 @@
   animation-delay: -0.9444444444s;
 }
 .c:nth-child(138):after {
-  background: #ca00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(139) {
@@ -1277,7 +1277,7 @@
   animation-delay: -0.1944444444s;
 }
 .c:nth-child(139):after {
-  background: #d300ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(140) {
@@ -1286,7 +1286,7 @@
   animation-delay: -0.2777777778s;
 }
 .c:nth-child(140):after {
-  background: #dc00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(141) {
@@ -1295,7 +1295,7 @@
   animation-delay: -3.25s;
 }
 .c:nth-child(141):after {
-  background: #e400ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(142) {
@@ -1304,7 +1304,7 @@
   animation-delay: -1.9166666667s;
 }
 .c:nth-child(142):after {
-  background: #ed00ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(143) {
@@ -1313,7 +1313,7 @@
   animation-delay: -3.8611111111s;
 }
 .c:nth-child(143):after {
-  background: #f600ff;
+  background: #00cdffcc;
 }
 
 .c:nth-child(144) {
@@ -1322,7 +1322,7 @@
   animation-delay: -3.3333333333s;
 }
 .c:nth-child(144):after {
-  background: magenta;
+  background: #00cdffcc;
 }
 
 @keyframes drop {
