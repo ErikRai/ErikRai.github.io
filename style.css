@@ -358,6 +358,9 @@ body {
     left: 120px;
   }
 
+  .popup{
+    display: none;
+  }
 }
 /* Mobile View */
 @media screen and (max-width: 600px){
@@ -381,6 +384,9 @@ body {
     top: 5%;  
   }
   
+  .popup{
+    display: none;
+  }
 }
 /* Mobile View */
 @media screen and (max-width: 500px){
