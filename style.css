@@ -382,3 +382,42 @@ body {
   }
   
 }
+/* Mobile View */
+@media screen and (max-width: 500px){
+  html {
+    font-size: 16px;
+  }
+  body{
+    max-width: 300px;
+    margin: auto;
+    padding: 0px;
+    background-color: white;
+  }
+  h1{
+    position: absolute;
+    font-weight: 800;
+    font-size: 2.5em;
+    width: 7.5em;
+    top: 200px;
+  }
+  .inner {
+    height: 400px;
+    width: 310px;
+    position: absolute;
+    top: 0%;  
+  }
+
+  .popup{
+    display: none;
+  }
+  #CSGE{
+    display: none;
+  }
+
+  .enter{
+    display: none;
+  }
+  z{
+    display: none;
+  }
+}
