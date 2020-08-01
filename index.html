@@ -191,44 +191,145 @@
     </div>
     
   <container>
-    <Nav>
-      <span id="ghub">
-        <a href="https://github.com/CloudGang" >
-        <img src="images\ghub.png" style="width:30px;" alt="@Supreme.Ciento | Github" title="@Supreme.Ciento | Github" />
-        </a>
-      </span>
-      <span id="igram">
-        <a href="https://www.instagram.com/supreme.ciento/" >
-        <img src="images\igram.png" style="width:30px;" alt="@Supreme.Ciento | Instagram" title="@Supreme.Ciento | Instagram" />
-        </a>
-      </span>
-    </Nav>
+    <innercontainer class="inner">
+      <Nav>
+        <span id="ghub">
+          <a href="https://github.com/CloudGang" >
+          <img src="images\ghub.png" style="width:30px;" alt="@Supreme.Ciento | Github" title="@Supreme.Ciento | Github" />
+          </a>
+        </span>
+        <span id="igram">
+          <a href="https://www.instagram.com/supreme.ciento/" >
+          <img src="images\igram.png" style="width:30px;" alt="@Supreme.Ciento | Instagram" title="@Supreme.Ciento | Instagram" />
+          </a>
+        </span>
+      </Nav>
 
-    <div id="topText">
-      <p id="Alyssio"> 
-        Senior Creative Director: <a href="./Main/sindex.html" alt="Senior Artwork Illustrator" title="Senior Artwork Illustrator"><b class="Alyssio">Erik-Rai</b></a>
-      </p>
-      <p id="Alyssio"> 
-        GFX Illustrator: <a href="./Main/alyssio.html" alt="GFX Illustrator: Alyssio" title="GFX Illustrator: Alyssio"><b class="Alyssio">Alyssio</b></a>
-      </p>
       <div id="topText">
-        <p id="CSGE">
-          <x class="rainbow-text2" id="x">Computer Specialist</x>
-          <y class="rainbow-text3" id="y">Graphics Extraordinaire</y> 
+        <p id="Alyssio"> 
+          Senior Creative Director: <a href="./Main/sindex.html" alt="Senior Artwork Illustrator" title="Senior Artwork Illustrator"><b class="Alyssio">Erik-Rai</b></a>
         </p>
+        <p id="Alyssio"> 
+          GFX Illustrator: <a href="./Main/alyssio.html" alt="GFX Illustrator: Alyssio" title="GFX Illustrator: Alyssio"><b class="Alyssio">Alyssio</b></a>
+        </p>
+        <div id="topText">
+          <p id="CSGE">
+            <x class="rainbow-text2" id="x">
+              Computer Specialist
+            </x>
+            <y class="rainbow-text3" id="y">
+              Graphics Extraordinaire
+            </y> 
+            <p></p>
+            <z class="rainbow-text4">
+              <b>FULL STACK WEB</b>              
+            </z>
+            <z class="rainbow-text4">
+              JavaScript•HTML•CSS
+              Node•React•Python•Redux
+            </z>
+          </p>
+        </div>
       </div>
-    </div>
 
-    <body>
-      <div>
-      <a href="#" id="Main" onclick="document.location=this.id+'/sindex.html';return false;" >
-          <h1 class="rainbow-text">erikrai𝅈codes</h1>
-      </a>
+      <body>
+        <div class="Name">
+        <a href="#" id="Main" onclick="document.location=this.id+'/sindex.html';return false;" >
+          <h4 class="rainbow-text4"><img class="enter" src="https://www.creativewebconceptsusa.com/wp-content/uploads/2019/07/enter.png" style="width:600px;height:15px;filter: brightness(10%)" alt="Enter erikrai.codes" title="Enter erikrai.codes" /></h4>  
+          <h1 class="rainbow-text">erikrai.codes</h1>
+        </a>
 
-      <script  src="./script.js"></script>
+        <script  src="./script.js"></script>
 
-      
-    </body>
+        <!--------------- BG Overlay --------------->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+        <style type="text/css">
+        #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        filter:alpha(opacity=70);
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+        opacity: 0.7;
+        z-index: -100;
+        }
+        .popup{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        z-index: -2;
+        opacity: 75%;
+        margin: -540px auto;
+        }
+        .cnt223{
+        min-width: 600px;
+        width: 600px;
+        height: 500px;
+        min-height: 150px;
+        margin: 0px auto;
+        background: #000000;
+        position: relative;
+        z-index: 103;
+        padding: 15px 35px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px #000;
+        }
+        .cnt223 p{
+        clear: both;
+          color: #555555;
+          /* text-align: justify; */
+          font-size: 20px;
+          font-family: sans-serif;
+        }
+        .cnt223 p a{
+        color: #0089d9;
+        font-weight: bold;
+        }
+        .cnt223 .x{
+        float: right;
+        height: 35px;
+        left: 22px;
+        position: relative;
+        top: -25px;
+        width: 34px;
+        }
+        .cnt223 .x:hover{
+        cursor: pointer;
+        }
+
+        </style>
+        <script type='text/javascript'>
+        $(function(){
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        $('.close').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+        
+        
+        
+        
+        $('.x').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+        });
+        </script>
+        <div class='popup'>
+          <div class='cnt223'>
+          </div>
+        </div>
+      </body>
+    </innercontainer>
   </container>
  
 </html>

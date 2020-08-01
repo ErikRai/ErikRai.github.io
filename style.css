@@ -8,8 +8,14 @@ body {
   background-color: #EDDDD4;
   transition: 0.0s;
 }
-
+.inner {
+  height: 800px;
+  width: 600px;
+  position: relative; 
+}
 h1 {
+  display: block;
+  position: relative;
   font-family: "Work Sans", sans-serif;
   font-weight: 800;
   font-size: 5em;
@@ -22,9 +28,28 @@ h1 {
   padding: 0px;
   filter: drop-shadow(2px 2px 1px #ffffff);
   -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  top: -125px;
+  z-index: 2;
 
 }
-
+h4 {
+  /* position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 55px;
+  left: 140px;
+  z-index: -1; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 Nav {
   position: relative;
   margin-left: auto;
@@ -34,7 +59,6 @@ Nav {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 a {
   list-style-type: none;
   margin: 0;
@@ -50,7 +74,27 @@ img:hover{
   filter: invert(100%) blur(0px) drop-shadow(8px 8px 10px #ffffff);
   margin-top: 0px;
 }
-
+igram {
+  filter: invert(0%) blur(4px) drop-shadow(8px 8px 10px #ff543e);
+  transition: 0.3s;
+  margin-top: 10px;
+}
+igram:hover{
+  filter: invert(100%) blur(0px) drop-shadow(8px 8px 10px #ffffff);
+  margin-top: 0px;
+}
+ghub {
+  filter: invert(0%) blur(4px) drop-shadow(8px 8px 10px #ff543e);
+  transition: 0.3s;
+  margin-top: 10px;
+}
+ghub:hover{
+  filter: invert(100%) blur(0px) drop-shadow(8px 8px 10px #ffffff);
+  margin-top: 0px;
+}
+enter{
+  filter: brightness(50%) blur(4px) drop-shadow(8px 8px 10px #ff1e00);
+}
 #topText {
   margin-top: 50px;
   position: relative;
@@ -62,7 +106,6 @@ img:hover{
   text-align: center;
   transition: 0.6s;
 }
-
 #CSGE {
   font-size: 16px;
   text-align: center;
@@ -83,7 +126,6 @@ img:hover{
 #CSGE:hover {
   -webkit-filter: brightness(100%);
 }
-
 #Alyssio {
   margin-top: 5px;
   transition: 0.6s;
@@ -96,7 +138,6 @@ img:hover{
   filter: invert(100%) blur(0px) drop-shadow(1px 1px 1px #000000);
   -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
-
 .Alyssio {
   margin-top: 5px;
   transition: 0.6s;
@@ -151,14 +192,13 @@ img:hover{
   animation: rainbow-text-animation-rev 0.5s ease forwards;
 
   cursor: pointer;
-}
 
+}
 /* Add animation on hover. */
 .rainbow-text:hover {
   animation: rainbow-text-animation 0.5s ease forwards;
   
 }
-
 .rainbow-text2 {
   /* Create a conic gradient. */
   /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
@@ -183,13 +223,11 @@ img:hover{
 
   cursor: pointer;
 }
-
 /* Add animation on hover. */
 .rainbow-text2:hover {
   animation: rainbow-text-animation 0.5s ease forwards;
   
 }
-
 .rainbow-text3 {
   /* Create a conic gradient. */
   /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
@@ -214,9 +252,34 @@ img:hover{
 
   cursor: pointer;
 }
+.rainbow-text4 {
+  /* Create a conic gradient. */
+  /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+  background: #000000;
+  background-color: #000000;
+  background: conic-gradient(
+    #000000 100%, 
+    #000000 100%);
+  /* Set thee background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+  filter: invert(100%) blur(0px) drop-shadow(1px 1px 1px #ffffff);
+  
+}
 
 /* Add animation on hover. */
-.rainbow-text3:hover {
+.rainbow-text4:hover {
   animation: rainbow-text-animation 0.5s ease forwards;
   
 }
@@ -277,7 +340,7 @@ body {
   width: 600;
 }
 
-@media(max-width:800px){
+@media screen and (min-width: 800px){
 
   body{
       max-width: 800px;
@@ -285,25 +348,37 @@ body {
       padding: 20px;
   }
   h1{
+    margin: auto;
+    position: absolute;
+    float: none;
     font-weight: 800;
     font-size: 4.5em;
     width: 7.5em;
+    top: 400px;
+    left: 120px;
   }
-  
 
 }
 /* Mobile View */
-@media(max-width:600px){
+@media screen and (max-width: 600px){
   body{
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0px;
+    background-color: white;
   }
   h1{
+    position: absolute;
     font-weight: 800;
-    font-size: 3.5em;
+    font-size: 4.5em;
     width: 7.5em;
+    top: 360px;
+  }
+  .inner {
+    height: 800px;
+    width: 500px;
+    position: absolute;
+    top: 5%;  
   }
   
 }
-
