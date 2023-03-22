@@ -44,11 +44,9 @@ print('\n')
 
 print("--Sieve Of Eratosthenes, 'SoE' 2020, CloudBots™--: ")
 print('--Email: CloudBotsBiz@Gmail.com--: ')
-print('--Press CTRL+C to End Session--: ')
-print('\n')
+print('--Press CTRL+C to End Session--: \n')
 print('-PREREQUISITES-')
-print("1): Enter a number to find the primes preceeding it:")
-print('\n')
+print("1): Enter a number to find the primes preceeding it:\n")
 sleep(2)
 
 def Primes(upperLimit):
@@ -59,12 +57,10 @@ def Primes(upperLimit):
                     if i * j in primes:
                         primes.remove(i*j)
                     j += 1
-    print('\n')
-    print('Here are the prime numbers preceeding your entry:')
-    print('\n')
+
+    print('\nHere are the prime numbers preceeding your entry:\n')
     print(primes)
 
-while True:
-    Entry = input('Enter a number: ')  
-    x = int(Entry)  
-    Primes(x)
+Entry = input('Primes: ')  
+x = int(Entry)  
+Primes(x)
