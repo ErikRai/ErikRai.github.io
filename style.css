@@ -28,7 +28,7 @@ h1 {
   padding: 0px;
   filter: drop-shadow(2px 2px 1px #ffffff);
   -webkit-text-stroke: 0.2px rgb(0, 0, 0);
-  top: -125px;
+  top: -225px;
   z-index: 2;
 
 }
@@ -354,7 +354,7 @@ body {
     font-weight: 800;
     font-size: 4.5em;
     width: 7.5em;
-    top: 400px;
+    top: 500px;
     left: 120px;
   }
 
